@@ -1,0 +1,34 @@
+- backend/
+  - app/
+    - api/
+      - __init__.py
+      - main.py
+    - models/
+      - __init__.py
+      - ...
+    - services/
+      - __init__.py
+      - ...
+  - tests/
+    - __init__.py
+    - ...
+  - .env
+  - requirements.txt
+- frontend/
+  - public/
+    - index.html
+    - ...
+  - src/
+    - api/
+      - api.js
+      - ...
+    - components/
+      - ...
+    - pages/
+      - ...
+    - styles/
+      - ...
+    - ...
+  - ...
+- docker-compose.yml
+- README.md
