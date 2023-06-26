@@ -32,7 +32,20 @@ for service deployment. </p>
 3. Run the command **pip install -r requirements.txt** to install the project dependencies.
 4. In the **backend/main.py** file, add your Google Trends API credentials in the relevant section.
 5. Run the command **uvicorn main:app --reload** to start the backend server.
-### 3.2. Frontend(Ionic React) ###
+
+### 3.2. DOCKER ###
+<p>This application can be containerized using Docker to simplify the deployment process. With Docker, you can package the application and its dependencies into a container, ensuring consistency across different environments. To use Docker with this application: </p>
+
+1. Install Docker on your machine following the Docker documentation for your specific operating system.
+2. Build the Docker image by running the command docker build -t trends-app . in the project's root directory.
+3. Once the image is built, you can run the container with the command docker run -p 3000:3000 trends-app.
+4. Access the application in your browser at http://localhost:3000.
+5. By using Docker, you can easily deploy the application in various environments and ensure a consistent runtime environment for the application.
+
+Contribution
+Contributions are welcome! If you encounter issues, have suggestions, or want to add features, feel free to open an issue or submit a pull
+
+### 3.3. Frontend(Ionic React) ###
 
 1. Navigate to the **frontend** directory.
 2. Run the command **npm install** to install the project dependencies.
@@ -46,8 +59,13 @@ for service deployment. </p>
 2. On the home page, you will see the top Google Trends search terms for the configured region.
 3. You can adjust the region and other parameters in the backend logic according to your needs.
 
-## 5. Customization ##
-<p>This project serves as a foundation for building a more complete application using Ionic React, FastAPI, and Google Trends. You can customize it by adding additional features such as charts or filters or expanding its functionality to include more Google Trends data or features.</p>
+## 5. Customization (incomplete description)
+<p>This project provides a solid foundation for building a more comprehensive application using Ionic React, FastAPI, and Google Trends. You can customize and enhance the application in several ways:.</p>
+
+* UI/UX: Customize the frontend interface by modifying the components, styles, or layout to align with your design preferences.
+* Additional Features: Extend the application's functionality by adding new features, such as visualizing trend data using charts or implementing search filters.
+* Data Analysis: Utilize the fetched Google Trends data to perform more in-depth analysis, such as identifying patterns, trends, or correlations.
+* Backend Enhancements: Expand the backend by integrating additional APIs or databases to enrich the application's data sources.
 
 ## 6. License ##
 <p>This project is licensed under the -X- License.</p>
