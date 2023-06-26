@@ -32,14 +32,13 @@ for service deployment. </p>
 3. Run the command **pip install -r requirements.txt** to install the project dependencies.
 4. In the **backend/main.py** file, add your Google Trends API credentials in the relevant section.
 5. Run the command **uvicorn main:app --reload** to start the backend server.
-<br>
 ### 3.2. Frontend(Ionic React) ###
 
 1. Navigate to the **frontend** directory.
 2. Run the command **npm install** to install the project dependencies.
 3. In the **frontend/src/api.ts** file, adjust the API URL to match the backend endpoint (e.g., http://localhost:8000).
 4. Run the command npm start to start the Ionic React development server.
-<br>
+
 ## 4. Usage ##
 <p>After configuring and running the above steps, the application will be available in the browser.</p>
 
