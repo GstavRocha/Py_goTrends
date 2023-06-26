@@ -1,6 +1,6 @@
  **ENG**:
 # Application of Display Trends Google #
-=======================================
+_________________________________
 
 <p> This is a simple application that displays the principal search terms 
 for a specific region. It is developed using Ionic React for the frontend and FastAPI 
